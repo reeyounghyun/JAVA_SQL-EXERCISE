@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>UsageRepository SQL</comment>
+
+    <!-- TODO: REPOSITORY-9. member_id, seat_no 두 컬럼만 넣는 INSERT -->
+    <entry key="insertUsage">TODO</entry>
+
+    <!-- TODO: REPOSITORY-10. member_id가 일치하고 check_out IS NULL인 기록의 usage_id, member_id, seat_no, check_in 조회 -->
+    <entry key="selectCurrentUsage">TODO</entry>
+
+    <!-- TODO: REPOSITORY-11. check_out = NOW(), used_minutes = TIMESTAMPDIFF(MINUTE, check_in, NOW())로 UPDATE
+               (조건: usage_id, member_id가 일치하고 check_out IS NULL) -->
+    <entry key="updateCheckOut">TODO</entry>
+
+    <!-- TODO: REPOSITORY-12. usage_id가 일치하는 기록의 6개 컬럼 전부 조회 -->
+    <entry key="selectUsageById">TODO</entry>
+
+    <!-- TODO: REPOSITORY-13. usage_tbl과 seat_tbl JOIN, member_id 조건, check_in 내림차순, 10건까지
+               (usage_tbl의 6개 컬럼 + seat_type) -->
+    <entry key="selectRecentUsages">TODO</entry>
+
+    <!-- TODO: REPOSITORY-14. usage_tbl과 seat_tbl JOIN, member_id 조건 + check_out IS NOT NULL,
+               seat_type별 GROUP BY, COUNT(*) AS use_count, SUM(used_minutes) AS total_minutes,
+               total_minutes 내림차순 -->
+    <entry key="selectSeatTypeStats">TODO</entry>
+</properties>

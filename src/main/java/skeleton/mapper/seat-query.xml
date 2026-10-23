@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>SeatRepository SQL</comment>
+
+    <!-- TODO: REPOSITORY-6. usable이 TRUE이고, 이용 중(check_out IS NULL)인 좌석 번호 목록에 없는 좌석 조회
+               (서브쿼리 + NOT IN, seat_no 오름차순) -->
+    <entry key="selectEmptySeats">TODO</entry>
+
+    <!-- TODO: REPOSITORY-7. seat_no가 일치하는 좌석의 seat_no, seat_type, usable 조회 -->
+    <entry key="selectSeatByNo">TODO</entry>
+
+    <!-- TODO: REPOSITORY-8. usage_tbl에서 seat_no가 일치하고 check_out IS NULL인 행의 개수 (별칭: cnt) -->
+    <entry key="countSeatInUse">TODO</entry>
+</properties>

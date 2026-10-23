@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>MemberRepository SQL</comment>
+
+    <!-- TODO: REPOSITORY-1. name, phone 두 컬럼만 넣는 INSERT -->
+    <entry key="insertMember">TODO</entry>
+
+    <!-- TODO: REPOSITORY-2. phone이 일치하는 회원의 member_id, name, phone, remaining_minutes 조회 -->
+    <entry key="selectMemberByPhone">TODO</entry>
+
+    <!-- TODO: REPOSITORY-3. remaining_minutes에 ?분을 "더하는" UPDATE (조건: member_id) -->
+    <entry key="updateChargeMinutes">TODO</entry>
+
+    <!-- TODO: REPOSITORY-4. remaining_minutes를 ? "값으로 바꾸는" UPDATE (조건: member_id) -->
+    <entry key="updateRemainingMinutes">TODO</entry>
+
+    <!-- TODO: REPOSITORY-5. member_id가 일치하는 회원 DELETE -->
+    <entry key="deleteMemberById">TODO</entry>
+</properties>
